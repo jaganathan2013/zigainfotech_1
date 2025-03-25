@@ -1,0 +1,83 @@
+.jContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.jOrderId {
+    margin-bottom: 10px;
+}
+
+.jOrderId label {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 0.8rem;
+}
+
+#jDeliveryOrderId {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+        font-weight: 600;
+        font-size: 13px;
+        font-family: "Nunito", sans-serif;
+      
+}
+
+.jDeliveryTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+.over{
+        overflow: scroll;
+}
+.jDeliveryTable th, .jDeliveryTable td {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+.jDeliveryTable th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+.jDeliveryTable td select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.jSaveButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #365edc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.jSaveButton:hover {
+    background-color: #2c4cb2;
+}
+
+@media (max-width: 600px) {
+    .jDeliveryTable th, .jDeliveryTable td {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #jDeliveryOrderId, .jSaveButton {
+        width: 100%;
+        font-size: 16px;
+    }
+}

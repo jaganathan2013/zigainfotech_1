@@ -1,0 +1,120 @@
+
+
+.confirmation-request-container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #fff;
+}
+.logistics-details ,.request-details ,.description-section ,.container-table,
+.confirmation-section,.signature-section,.footer-section{
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+    font-size: 13px;
+}
+.header-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.confirmation-section p{
+    margin: 0 !important;
+}
+.confirmation-section ul{
+  margin-top: 1rem;
+}
+.signature-section p{
+    margin: 0 !important;
+}
+.header-section h1 {
+    font-weight: 600;
+    color: #012970;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 5px;
+}
+.confirmation-section ul li{
+    display: flex;
+    gap: 1rem;
+}
+.footer-section p{
+    margin: 0;
+}
+.logistics-details p{
+    margin: 0 !important;
+}
+.logistics-details {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.request-details {
+    border: 1px solid #333;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.description-section {
+    margin-bottom: 20px;
+}
+
+.container-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.container-table th, .container-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.confirmation-section {
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.confirmation-section ul {
+    list-style-type: none;
+}
+
+.confirmation-section li {
+    margin-bottom: 10px;
+}
+
+.signature-section {
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+/* .footer-section button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.reject {
+    background-color: red;
+    color: #fff;
+    padding: 2px 20px;
+    font-size: 0.8rem;
+}
+
+.btn.accept {
+    background-color: green;
+    color: #fff;
+    padding: 2px 20px;
+    font-size: 0.8rem;
+} */

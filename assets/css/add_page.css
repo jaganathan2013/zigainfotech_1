@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    margin: 0;
+
+    font-size: 0.7rem;
+}
+.cover_box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: 15rem;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size:0.8rem;
+}
+
+nav p {
+    color: #888;
+    margin-top: 10px;
+    margin-bottom: 0rem;
+}
+
+.form-section {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 650px) {
+    .cover_box {
+    flex-wrap: wrap;
+    }
+  
+  }
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 0.5rem;
+    color: #888;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.scroll{
+        overflow: scroll; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;  
+ 
+}
+
+table th{
+    font-weight: 600;
+    color: #012970;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    border: 1px solid #ddd;
+}
+table td {
+    font-weight: 600;
+    color: #012970;
+    font-size: 13px;
+    font-family: "Nunito", sans-serif;
+    border: 1px solid #ddd;
+}
+
+table input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.remove-btn {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 20px;
+}

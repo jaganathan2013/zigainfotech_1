@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Dashboard - NiceAdmin</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style_second.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./button.css">
+    <!-- =======================================================
+  * Template Name: NiceAdmin
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Updated: Apr 20 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img class="bounceInRight_logo" src="assets/img/logo.png" alt="">
+                <!-- <span class="d-none d-lg-block">NiceAdmin</span> -->
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+        <div class="my_box">
+            <nav class="my_nave">
+              <ol>
+                <li class="menu-item">
+                  <a href="#0"><i class="bi bi-geo-alt" style="padding-right: 0.6rem;"></i>Location </a>
+                  <ol class="sub-menu">
+                    <li class="menu-item" style="background: white;"><a href="#0"></a></li>
+                    <li class="menu-item"><a href="./home.html">Request</a></li>
+                    <li class="menu-item"><a href="./Confirmation_Request.html">Confom</a></li>
+                    <li class="menu-item"><a href="./Return_Container.html">Return</a></li>
+                  </ol>
+                </li>
+                <li class="menu-item">
+                  <a href="#0"><i class="bi bi-door-open" style="padding-right: 0.6rem;"></i>Logistic </a>
+                  <ol class="sub-menu">
+                    <li class="menu-item" style="height:29px; background: white;"><a href="#0"></a></li>
+                    <li class="menu-item"><a href="./Request_From_Site.html">Request</a></li>
+                    <li class="menu-item"><a href="./Delivery_Order.html">Order</a></li>
+                    <li class="menu-item"><a href="./Allocate_Transporter.html">Allocate</a></li>
+                  </ol>
+                </li>
+                <li class="menu-item">
+                  <a href="#0"><i class="bi bi-flag"style="padding-right: 0.6rem;"></i>Port </a>
+                  <ol class="sub-menu">
+                    <li class="menu-item" style="height:29px; background: white;"><a href="#0"></a></li>
+                    <li class="menu-item"><a href="./Receive_Container_QR.html"> QR</a></li>
+                    <li class="menu-item"><a href="./HSE_Check.html">Check</a></li>
+                    <li class="menu-item"><a href="Load_to_Vessel.html">Vessel</a></li>
+                  </ol>
+                </li>
+                <li class="menu-item">
+                  <a href="#0"><i class="bi bi-menu-app"style="padding-right: 0.6rem;"></i>Container</a>
+                  <ol class="sub-menu">
+                    <li class="menu-item" style="height:29px; background: white;"><a href="#0"></a></li>
+                    <li class="menu-item"><a href="./OverAll_Container.html">OverAll</a></li>
+      
+                  </ol>
+                </li>
+      
+              </ol>
+            </nav>
+          </div>
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+
+           
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-bell"></i>
+                        <span class="badge bg-primary badge-number">4</span>
+                    </a><!-- End Notification Icon -->
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+                        <li class="dropdown-header">
+                            You have 4 new notifications
+                            <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-exclamation-circle text-warning"></i>
+                            <div>
+                                <h4>Lorem Ipsum</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>30 min. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-x-circle text-danger"></i>
+                            <div>
+                                <h4>Atque rerum nesciunt</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>1 hr. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-check-circle text-success"></i>
+                            <div>
+                                <h4>Sit rerum fuga</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>2 hrs. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="notification-item">
+                            <i class="bi bi-info-circle text-primary"></i>
+                            <div>
+                                <h4>Dicta reprehenderit</h4>
+                                <p>Quae dolorem earum veritatis oditseno</p>
+                                <p>4 hrs. ago</p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li class="dropdown-footer">
+                            <a href="#">Show all notifications</a>
+                        </li>
+
+                    </ul><!-- End Notification Dropdown Items -->
+
+                </li><!-- End Notification Nav -->
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-chat-left-text"></i>
+                        <span class="badge bg-success badge-number">3</span>
+                    </a><!-- End Messages Icon -->
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+                        <li class="dropdown-header">
+                            You have 3 new messages
+                            <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="message-item">
+                            <a href="#">
+                                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                                <div>
+                                    <h4>Maria Hudson</h4>
+                                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                                    <p>4 hrs. ago</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="message-item">
+                            <a href="#">
+                                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                                <div>
+                                    <h4>Anna Nelson</h4>
+                                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                                    <p>6 hrs. ago</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="message-item">
+                            <a href="#">
+                                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                                <div>
+                                    <h4>David Muldon</h4>
+                                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                                    <p>8 hrs. ago</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li class="dropdown-footer">
+                            <a href="#">Show all messages</a>
+                        </li>
+
+                    </ul><!-- End Messages Dropdown Items -->
+
+                </li><!-- End Messages Nav -->
+
+                <li class="nav-item dropdown pe-3">
+
+                    <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                        <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+                        <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+                    </a><!-- End Profile Iamge Icon -->
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6>Kevin Anderson</h6>
+                            <span>Web Designer</span>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                                <i class="bi bi-gear"></i>
+                                <span>Account Settings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                                <i class="bi bi-question-circle"></i>
+                                <span>Need Help?</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Sign Out</span>
+                            </a>
+                        </li>
+
+                    </ul><!-- End Profile Dropdown Items -->
+                </li><!-- End Profile Nav -->
+
+            </ul>
+        </nav><!-- End Icons Navigation -->
+
+    </header><!-- End Header -->
+
+    <aside id="sidebar" class="sidebar">
+
+        <ul class="sidebar-nav" id="sidebar-nav">
+
+            <li class="nav-item">
+              <p>Location Manager</p>
+              <ul class="nav-lin">
+                <li><a href="home.html"><i class="bi bi-upload"></i>Location Request</a></li>
+                <li><a href="./Confirmation_Request.html"> <i class="bi bi-envelope-check"></i>Confirmation Request</a></li>
+                <li><a href="./Receive_Container.html"><i class="bi bi-segmented-nav"></i>Recive Container</a></li>
+                <li><a href="./Return_Container.html"><i class="bi bi-truck"></i>Return Container</a></li>
+              </ul>
+            </li>
+      
+            <li class="nav-item">
+              <p>Logistic Manager</p>
+              <ul class="nav-lin_two nav-lin ">
+                <li><a href="./Request_From_Site.html"><i class="bi bi-download"></i>Request From Site</a></li>
+                <li><a href="./Delivery_Order.html"><i class="bi bi-card-checklist"></i>Delivery Order</a></li>
+                <li><a href="./Container_Assignment.html"><i class="bi bi-segmented-nav"></i>Container Assignment</a></li>
+                <li><a href="./Allocate_Transporter.html"><i class="bi bi-truck"></i>Allocate Transporter</a></li>
+              </ul>
+            </li>
+      
+            <li class="nav-item">
+              <p>Port Incharge</p>
+              <ul class="nav-lin nav-lin_three">
+                <li><a href="./Receive_Container_QR.html"> <i class="bi bi-folder-check"></i>Receive Container QR</a></li>
+                <li><a href="./Document_Verification.html"><i class="bi bi-file-check"></i>Document Verification</a></li>
+                <li><a href="./HSE_Check.html"> <i class="bi bi-bookmark-check"></i>HSE Check</a></li>
+                <li><a href="./Load_to_Vessel.html"><i class="bi bi-truck"></i>Load to Vessel</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <p>Container</p>
+              <ul class="nav-lin nav-lin_last">
+                <li><a href="./OverAll_Container.html"> <i class="bi bi-folder-check"></i>OverAll Container</a></li>
+              </ul>
+            </li>
+          </ul>
+    
+      </aside><!-- End Sidebar-->
+
+
+
+      <main id="main" class="main">
+
+        <div class="pagetitle">
+            <h1>Dashboard</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Dashboard</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="box">
+            <div class="filter-container">
+                <label>
+                    <input type="checkbox" value="1-month"> 1-Month</label>
+                <label>
+                    <input type="checkbox" value="3-month"> 3-Month
+                </label>
+                <label>
+                    <input type="checkbox" value="6-month"> 6-Month
+                </label>
+                <label>
+                    <input type="checkbox" value="year"> Year
+                </label>
+            </div>
+            <!-- card start -->
+            <div class="ag-format-container">
+                <div class="ag-courses_box">
+                    <div class="ag-courses_item">
+                        <a href="#" class="ag-courses-item_link">
+
+                            <div class="r_inner_box">
+                                <img src="./assets/img/ca (1).png" alt="" srcset="">
+                                <div class="r_left">
+                                    <h5>
+                                        In Transit</h5>
+                                    <h4>10</h4>
+                                </div>
+
+                            </div>
+
+                            <div class="ag-courses-item_bg"></div>
+
+
+
+                        </a>
+                    </div>
+
+                    <div class="ag-courses_item">
+                        <a href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="r_inner_box">
+                                <img src="./assets/img/ca (2).png" alt="" srcset="">
+                                <div class="r_left">
+                                    <h5>
+                                        In Transit</h5>
+                                    <h4>10</h4>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ag-courses_item">
+                        <a href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="r_inner_box">
+                                <img src="./assets/img/ca (4).png" alt="" srcset="">
+                                <div class="r_left">
+                                    <h5>
+                                        In Transit</h5>
+                                    <h4>10</h4>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="first_box">
+
+                <input type="text" id="filterStatus" placeholder="Filter by Status">
+      
+                <!-- Green Add Button -->
+                <div class="button-container-1">
+                  <span class="mas">Create</span>
+                  <a href="./allocateTransporter_create.html"><button id='work' type="button" name="Hover">Create</button></a>
+                  
+                </div>
+              
+      
+              </div>
+
+
+            <!-- Green Add Button -->
+        </div>
+        <div class="table-container">
+            <table id="transportAllocationsTable">
+                <thead>
+                    <tr>
+                        <th>S.no</th>
+                        <th>Container Id</th>
+                        <th>Transport Id</th>
+                        <th>Vehicle No</th>
+                        <th>Delivery Order No</th>
+                        <th>Status</th>
+                        <th>Allocated Date</th>
+                        <th>View</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="S.no">1</td>
+                        <td data-label="Container Id">C1</td>
+                        <td data-label="Transport Id">Transporter 4</td>
+                        <td data-label="Vehicle No">LMN101</td>
+                        <td data-label="Delivery Order No">DO15032412</td>
+                        <td data-label="Status">Allocated Transporter</td>
+                        <td data-label="Allocated Date">2024-03-19</td>
+                        <td data-label="View"><a href="./Allocate_Transport_view.html"><i style="font-size: 1rem; display: flex; justify-content: center;" class="bi bi-eye-fill"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="S.no">2</td>
+                        <td data-label="Container Id">C10</td>
+                        <td data-label="Transport Id">Transporter 1</td>
+                        <td data-label="Vehicle No">ABC123</td>
+                        <td data-label="Delivery Order No">DO15032412</td>
+                        <td data-label="Status">Allocated Transporter</td>
+                        <td data-label="Allocated Date">2024-03-19</td>
+                        <td data-label="View"><a href="./Allocate_Transport_view.html"><i style="font-size: 1rem; display: flex; justify-content: center;" class="bi bi-eye-fill"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="S.no">3</td>
+                        <td data-label="Container Id">C7</td>
+                        <td data-label="Transport Id">Transporter 10</td>
+                        <td data-label="Vehicle No">STU707</td>
+                        <td data-label="Delivery Order No">DO15032413</td>
+                        <td data-label="Status">Allocated Transporter</td>
+                        <td data-label="Allocated Date">2024-03-19</td>
+                        <td data-label="View"><a href="./Allocate_Transport_view.html"><i style="font-size: 1rem; display: flex; justify-content: center;" class="bi bi-eye-fill"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td data-label="S.no">4</td>
+                        <td data-label="Container Id">C13</td>
+                        <td data-label="Transport Id">Transporter 16</td>
+                        <td data-label="Vehicle No">TUV313</td>
+                        <td data-label="Delivery Order No">DO15032413</td>
+                        <td data-label="Status">Allocated Transporter</td>
+                        <td data-label="Allocated Date">2024-03-19</td>
+                        <td data-label="View"><a href="./Allocate_Transport_view.html"><i style="font-size: 1rem; display: flex; justify-content: center;" class="bi bi-eye-fill"></i></a></td>
+                    </tr>
+                    <!-- Additional rows can be added here as needed -->
+                </tbody>
+            </table>
+            
+        </div>
+        
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="copyright">
+            2024© Esfita Infotech
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
